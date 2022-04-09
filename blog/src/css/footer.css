@@ -1,0 +1,21 @@
+@import url(./style.css);
+
+footer {
+  padding: 1.25rem 0;
+  background: var(--gradient-default);
+}
+
+footer div {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer div p {
+  display: flex;
+  color: var(--light);
+  align-items: center;
+}
+
+footer svg {
+  padding-left: 0.5rem;
+}
