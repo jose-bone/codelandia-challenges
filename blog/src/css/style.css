@@ -6,6 +6,7 @@
     padding: 0;
     margin: 0;
 }
+
 :root{
     --purple:#3EA1DB;
     --gradient-default:linear-gradient(270deg, #3EA1DB 0%, #574AE8 100%);
@@ -15,3 +16,42 @@
     --dark:#1A202C;
     --medium:#717171;
 }
+
+::-webkit-scrollbar{
+  background: var(--light-200);
+  width: .5rem;
+}
+
+::-webkit-scrollbar-thumb{
+  background: var(--purple);
+}
+
+h1{
+  font-size: 1.6rem;
+  line-height: 120%;
+  font-weight: 400;
+  color: var(--dark);
+}
+
+h2{
+  line-height: 120%;
+  font-size: 1.5rem;
+  color: var(--light);
+  font-weight: 400;
+}
+
+p{
+  font-size: 1.1rem;
+  line-height: 150%;
+  font-weight: 400;
+}
+
+time{
+  font-size: 1rem;
+  line-height: 150%;
+}
+ .max-width{
+   max-width: 900px;
+   width: 100%;
+   margin: 0 auto;
+ }
