@@ -34,6 +34,8 @@
 
 <p align="center">
   <a href="#dart-about">About</a> &#xa0; | &#xa0; 
+  <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0; 
+  <a href="#bookmark-layout">Layout</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
   <a href="#memo-license">License</a> &#xa0; | &#xa0;
   <a href="https://github.com/jose-bone" target="_blank">Author</a>
@@ -48,6 +50,10 @@ Blog creation challenge 💻📱🚀
 ## :white_check_mark: Requirements
 
 Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [VSCode](https://code.visualstudio.com) installed.
+
+## :bookmark: Layout
+
+You can view the project layout through this [link](<https://www.figma.com/file/z5zyEXaOeCJxB34SH0P28f/Desafios---Codel%C3%A2ndia-(Copy)?node-id=0%3A1>). [Figma](https://www.figma.com/) must be counted to access it.
 
 ## :checkered_flag: Starting
 
