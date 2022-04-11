@@ -53,10 +53,10 @@ Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) an
 
 ```bash
 # Clone this project
-$ git clone https://github.com/jose-bone/codelandia-challenges/tree/main/blog.git
+$ git clone https://github.com/jose-bone/codelandia-challenges.git
 
 # Access
-$ cd codelandia-challenges/tree/main/blog/blog
+$ cd codelandia-challenges/blog
 ```
 
 ## :memo: License
