@@ -1,4 +1,4 @@
-@import url(style.css);
+@import url(./style.css);
 
 header {
   background: var(--gradient-default);
@@ -33,6 +33,7 @@ input {
   padding: 1.25rem 0;
   border: none;
   outline: none;
+  background: none;
   font-family: "Inter", sans-serif;
   font-weight: 500;
 }
