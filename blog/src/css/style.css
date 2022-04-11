@@ -55,3 +55,22 @@ time {
   width: 100%;
   margin: 0 auto;
 }
+
+@media screen and (max-width: 480px) {
+  h1,
+  h2 {
+    font-size: 1.1rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+
+  input {
+    padding: 0.9rem 0;
+  }
+
+  time {
+    font-size: 0.8rem;
+  }
+}

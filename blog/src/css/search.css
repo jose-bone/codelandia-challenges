@@ -41,3 +41,21 @@ input {
 input:placeholder {
   color: var(--light-transparent);
 }
+
+@media screen and (max-width: 920px) {
+  header {
+    padding: 2.5rem 1.25rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  header > section div:nth-child(2) > label > svg {
+    padding: 0.7rem;
+  }
+  header > section div:nth-child(1) {
+    margin-bottom: 2.5rem;
+  }
+  input,
+  input::placeholder {
+    font-size: 0.9rem;
+  }
+}

@@ -19,3 +19,13 @@ footer div p {
 footer svg {
   padding-left: 0.5rem;
 }
+
+@media screen and (max-width: 480px) {
+  footer {
+    padding: 1.25rem;
+  }
+  footer div {
+    flex-direction: column;
+    align-items: center;
+  }
+}
