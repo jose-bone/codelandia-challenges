@@ -1,0 +1,42 @@
+@import url(style.css);
+
+header {
+  background: var(--gradient-default);
+  padding: 2.5rem 0;
+}
+
+header > section div:nth-child(1) {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5rem;
+}
+
+header > section div:nth-child(2) {
+  background-color: var(--light-transparent);
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+}
+
+header > section div:nth-child(2) > label > svg {
+  padding: 1rem;
+}
+
+header > section div:nth-child(2) > input {
+  width: 100%;
+}
+
+input {
+  font-size: 1.1rem;
+  line-height: 120%;
+  color: var(--light);
+  padding: 1.25rem 0;
+  border: none;
+  outline: none;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+}
+
+input:placeholder {
+  color: var(--light-transparent);
+}
