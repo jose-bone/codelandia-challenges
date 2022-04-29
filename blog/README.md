@@ -3,7 +3,8 @@
 
 &#xa0;
 
-  <!-- <a href="https://{{app_url}}.netlify.app">Demo</a> -->
+<a href="https://blog-jose-bone.vercel.app">Demo</a>
+
 </div>
 
 <h1 align="center">Codelândia Blog</h1>
