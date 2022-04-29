@@ -18,11 +18,11 @@
 
   <!-- <img alt="License" src="https://img.shields.io/github/license/jose-bone/codelandia-challenges?color=56BEB8"> -->
 
-  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/jose-bone/codelandia-challenges?color=56BEB8" /> -->
+  <img alt="Github issues" src="https://img.shields.io/github/issues/jose-bone/codelandia-challenges?color=56BEB8" />
 
-  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/jose-bone/codelandia-challenges?color=56BEB8" /> -->
+  <img alt="Github forks" src="https://img.shields.io/github/forks/jose-bone/codelandia-challenges?color=56BEB8" />
 
-  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/jose-bone/codelandia-challenges?color=56BEB8" /> -->
+  <img alt="Github stars" src="https://img.shields.io/github/stars/jose-bone/codelandia-challenges?color=56BEB8" />
 </p>
 
 <!-- Status -->
