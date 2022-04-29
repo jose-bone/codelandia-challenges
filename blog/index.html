@@ -54,7 +54,9 @@
         <section class="max-width">
           <article>
             <div>
-              <time datetime="2022-04-09 02:00">09 de Abr, 2022</time>
+              <time datetime="2022-04-09 02:00" class="date"
+                >09 de Abr, 2022</time
+              >
               <svg
                 width="25"
                 height="25"
@@ -69,8 +71,8 @@
                 />
               </svg>
             </div>
-            <h1>Agora é oficial: o Windows 11 está vindo</h1>
-            <p>
+            <h1 class="title">Agora é oficial: o Windows 11 está vindo</h1>
+            <p class="description">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
               delectus dolorem labore ex incidunt aperiam dicta quo eius quos
               similique distinctio, veniam explicabo ad odit laudantium officia.
@@ -79,7 +81,9 @@
           </article>
           <article>
             <div>
-              <time datetime="2022-04-09 02:00">09 de Abr, 2022</time>
+              <time datetime="2022-04-09 02:00" class="date"
+                >09 de Abr, 2022</time
+              >
               <svg
                 width="25"
                 height="25"
@@ -93,8 +97,10 @@
                 />
               </svg>
             </div>
-            <h1>Tim Berners-Lee vai leiloar código-fonte da web</h1>
-            <p>
+            <h1 class="title">
+              Tim Berners-Lee vai leiloar código-fonte da web
+            </h1>
+            <p class="description">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum
               rem facere quia ad eum fuga impedit non voluptate repellendus
               corrupti dolor tenetur, provident voluptas exercitationem error
@@ -103,7 +109,9 @@
           </article>
           <article>
             <div>
-              <time datetime="2022-04-09 02:00">09 de Abr, 2022</time>
+              <time datetime="2022-04-09 02:00" class="date"
+                >09 de Abr, 2022</time
+              >
               <svg
                 width="25"
                 height="25"
@@ -117,8 +125,10 @@
                 />
               </svg>
             </div>
-            <h1>Tem Firefox novo no pedaço e você vai querer migrar</h1>
-            <p>
+            <h1 class="title">
+              Tem Firefox novo no pedaço e você vai querer migrar
+            </h1>
+            <p class="description">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id
               incidunt distinctio ad, delectus magni ipsam! Reprehenderit
               facilis non eveniet recusandae nemo molestias distinctio aliquid
@@ -127,7 +137,9 @@
           </article>
           <article>
             <div>
-              <time datetime="2022-04-09 02:00">09 de Abr, 2022</time>
+              <time datetime="2022-04-09 02:00" class="date"
+                >09 de Abr, 2022</time
+              >
               <svg
                 width="25"
                 height="25"
@@ -141,8 +153,10 @@
                 />
               </svg>
             </div>
-            <h1>John McAfee, criador do antivírus McAfee, morre</h1>
-            <p>
+            <h1 class="title">
+              John McAfee, criador do antivírus McAfee, morre
+            </h1>
+            <p class="description">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid
               placeat reprehenderit facilis inventore magnam atque porro dicta
               aperiam quis eius soluta recusandae perspiciatis voluptatum
@@ -174,5 +188,19 @@
     </div>
 
     <script src="./src/js/script.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+      const sr = ScrollReveal({
+        origin: "top",
+        distance: "50px",
+        duration: 2000,
+        reset: true,
+      });
+
+      ScrollReveal().reveal(".container-post", { delay: 200 });
+      ScrollReveal().reveal(".date", { delay: 400 });
+      ScrollReveal().reveal(".title", { delay: 500 });
+      ScrollReveal().reveal(".description", { delay: 600 });
+    </script>
   </body>
 </html>
