@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta name="author" content="José Boné" />
+    <meta
+      name="description"
+      content="Desafio 2 da Codelândia feito por José Boné."
+    />
+    <meta
+      name="keywords"
+      content="HTML, CSS, JavaScript, JordanShoes, Responsividade"
+    />
+
+    <link rel="stylesheet" href="./src/css/styles.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>JordanShoes</title>
+  </head>
+  <body>
+    <div class="discount"><p>Get $ 10 discount on shipping</p></div>
+    <div class="jordan-title"><h2>JordanShoes</h2></div>
+
+    <header>
+      <div class="bg_header">
+        <div class="infos_header">
+          <h1>Jordan's best store</h1>
+          <p>
+            Jordan tennis is the result of an old and strong partnership between
+            Nike and player Michael Jordan.
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <main class="container">
+      <h2>Highlights</h2>
+      <p>Free shipping and free slipper is here, enjoy for a limited time.</p>
+
+      <section class="products">
+        <div class="sample">
+          <div class="tenis">
+            <div class="box" class="" scroll>
+              <img src="src/img/1.png" alt="tenis-nike" />
+            </div>
+            <div class="box" class="" scroll>
+              <img src="src/img/2.png" alt="tenis-nike" />
+            </div>
+            <div class="box" class="" scroll>
+              <img src="src/img/3.png" alt="tenis-nike" />
+            </div>
+            <div class="box" class="" scroll>
+              <img src="src/img/4.png" alt="tenis-nike" />
+            </div>
+            <div class="box" class="" scroll>
+              <img src="src/img/5.png" alt="tenis-nike" />
+            </div>
+            <div class="box" class="" scroll>
+              <img src="src/img/6.png" alt="tenis-nike" />
+            </div>
+            <div class="box" class="" scroll>
+              <img src="src/img/7.png" alt="tenis-nike" />
+            </div>
+            <div class="box" class="" scroll>
+              <img src="src/img/8.png" alt="tenis-nike" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer><h2>All rights reserved.</h2></footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+      var typed = new Typed("#typed", {
+        stringsElement: "#typed-strings",
+        typeSpeed: 30,
+      });
+    </script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+      const sr = ScrollReveal({
+        origin: "top",
+        distance: "50px",
+        duration: 2000,
+        reset: true,
+      });
+      ScrollReveal().reveal(".card", { delay: 200 });
+      ScrollReveal().reveal(".card-img", { delay: 300 });
+      ScrollReveal().reveal(".infos-tenis", { delay: 100 });
+    </script>
+  </body>
+</html>
