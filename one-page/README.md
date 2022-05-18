@@ -1,4 +1,4 @@
-<h1 align="center">Jordan Shoes</h1>
+<h1 align="center">One Page</h1>
 
 <div align="center" id="top"> 
   <img src="./.github/preview.png" alt="Jordan Shoes" />
