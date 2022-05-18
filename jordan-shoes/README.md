@@ -52,7 +52,7 @@ $ cd codelandia-challenges/jordan-shoes
 
 ## :memo: License
 
-This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
+This project is under license from MIT. For more details, see the [LICENSE](../LICENSE.md) file.
 
 Made with :heart: by <a href="https://github.com/jose-bone" target="_blank">José Boné</a>
 

@@ -9,29 +9,13 @@
 
 <h1 align="center">Codelândia Blog</h1>
 
-<p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/jose-bone/codelandia-challenges?color=56BEB8">
+Status
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/jose-bone/codelandia-challenges?color=56BEB8">
-
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/jose-bone/codelandia-challenges?color=56BEB8">
-
-  <!-- <img alt="License" src="https://img.shields.io/github/license/jose-bone/codelandia-challenges?color=56BEB8"> -->
-
-  <img alt="Github issues" src="https://img.shields.io/github/issues/jose-bone/codelandia-challenges?color=56BEB8" />
-
-  <img alt="Github forks" src="https://img.shields.io/github/forks/jose-bone/codelandia-challenges?color=56BEB8" />
-
-  <img alt="Github stars" src="https://img.shields.io/github/stars/jose-bone/codelandia-challenges?color=56BEB8" />
-</p>
-
-<!-- Status -->
-
-<!-- <h4 align="center">
+<h4 align="center">
 	🚧  Codelândia Blog 🚀 Under construction...  🚧
 </h4>
 
-<hr> -->
+<hr>
 
 <p align="center">
   <a href="#dart-about">About</a> &#xa0; | &#xa0; 
@@ -68,7 +52,7 @@ $ cd codelandia-challenges/blog
 
 ## :memo: License
 
-This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
+This project is under license from MIT. For more details, see the [LICENSE](../LICENSE.md) file.
 
 Made with :heart: by <a href="https://github.com/jose-bone" target="_blank">José Boné</a>
 
