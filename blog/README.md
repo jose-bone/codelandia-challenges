@@ -1,5 +1,5 @@
 <div align="center" id="top"> 
-  <img src="./.github/homepage.png" alt="Codelândia Blog" />
+  <img src="./.github/preview.png" alt="Codelândia Blog" />
 
 &#xa0;
 
