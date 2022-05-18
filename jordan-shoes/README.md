@@ -1,7 +1,7 @@
 <h1 align="center">Jordan Shoes</h1>
 
 <div align="center" id="top"> 
-  <img src="./.github/homepage.png" alt="Jordan Shoes" />
+  <img src="./.github/preview.png" alt="Jordan Shoes" />
 
 &#xa0;
 
