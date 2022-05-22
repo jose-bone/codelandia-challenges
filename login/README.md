@@ -1,3 +1,5 @@
+<h1 align="center">Login</h1>
+
 <div align="center" id="top"> 
   <img src="./.github/app.gif" alt="Login" />
 
@@ -6,10 +8,6 @@
 <a href="">Demo</a>
 
 </div>
-
-<h1 align="center">Login</h1>
-
-<hr>
 
 <p align="center">
   <a href="#dart-about">About</a> &#xa0; | &#xa0; 
