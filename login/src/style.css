@@ -155,3 +155,35 @@ button {
   margin-top: 8rem;
   text-align: center;
 }
+
+@media (max-width: 700px) {
+  .container:first-child {
+    display: none;
+  }
+  .container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .form {
+    width: 90%;
+  }
+}
+@media (min-width: 701px) and (max-width: 900px) {
+  .container img:first-child {
+    width: 100%;
+  }
+  .container {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .form {
+    width: 90%;
+  }
+  #google img {
+    width: 8%;
+  }
+}
