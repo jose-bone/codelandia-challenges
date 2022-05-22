@@ -1,3 +1,5 @@
+<h1 align="center">Codelândia Blog</h1>
+
 <div align="center" id="top"> 
   <img src="./.github/preview.png" alt="Codelândia Blog" />
 
@@ -6,8 +8,6 @@
 <a href="https://blog-jose-bone.vercel.app">Demo</a>
 
 </div>
-
-<h1 align="center">Codelândia Blog</h1>
 
 Status
 
