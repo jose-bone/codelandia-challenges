@@ -1,0 +1,163 @@
+@font-face {
+  font-family: "Merriweather";
+  src: url("./font/Merriweather-Regular.ttf");
+
+  font-family: "Lato";
+  src: url("./font/Lato-Regular.ttf");
+  src: url("./fonts/Lato-Bold.ttf");
+}
+
+/* Variables */
+:root {
+  --green: #04c35c;
+  --blue: #2b6cb0;
+
+  --white: #ffffff;
+  --white300: #f7fafc;
+
+  --dark: #1a202c;
+  --input: #e8e8e8;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+  text-decoration: 0;
+  font-family: "Merriweather";
+}
+
+.main-container {
+  display: flex;
+  height: 100vh;
+  flex-wrap: wrap;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.container:first-child {
+  background: var(--white300);
+}
+
+html {
+  font-size: 62.5%;
+}
+
+h2,
+h3 {
+  font-family: "Merriweather", sans-serif;
+  color: var(--dark);
+  font-weight: 700;
+}
+
+h3,
+label,
+p,
+a {
+  font-size: 1.6rem;
+}
+
+h2 {
+  font-size: 2.6rem;
+  margin-bottom: 3.9rem;
+}
+
+label,
+p,
+a {
+  font-family: "Lato";
+  color: var(--dark);
+  line-height: 1.9rem;
+  font-weight: 400;
+}
+
+.form {
+  width: 50%;
+  margin-top: 3.9rem;
+}
+
+input {
+  padding: 2rem;
+  margin: 1.1rem 0;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+  border-color: var(--green);
+}
+
+input[type="email"],
+input[type="password"],
+button {
+  height: 5rem;
+  width: 100%;
+  border: 1px solid var(--input);
+  border-radius: 5px;
+  font-size: 1.6rem;
+}
+
+.recover {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.6rem 0;
+}
+
+.remember {
+  display: inline-flex;
+  align-items: center;
+}
+
+#link {
+  color: #2b6cb0;
+}
+
+#link:hover {
+  color: var(--green);
+}
+
+button {
+  cursor: pointer;
+}
+
+#green {
+  color: var(--white);
+  background: var(--green);
+  margin-bottom: 1.5rem;
+}
+
+#green:hover {
+  background: var(--white300);
+  color: var(--green);
+  border-color: var(--green);
+}
+
+#google {
+  color: var(--white);
+  background: var(--dark);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#google:hover {
+  background: var(--white300);
+  color: var(--dark);
+  border-color: var(--dark);
+}
+
+#google img {
+  margin-right: 1rem;
+}
+
+.register {
+  margin-top: 8rem;
+  text-align: center;
+}

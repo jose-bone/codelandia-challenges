@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login | José Boné</title>
+
+    <link rel="stylesheet" href="./src/style.css" />
+
+    <meta name="author" content="José Boné" />
+    <meta
+      name="description"
+      content="Desafio 4 da Codelândia feito por José Boné."
+    />
+    <meta name="keywords" content="HTML, CSS, Login, Responsividade" />
+  </head>
+  <body>
+    <main>
+      <section class="main-container">
+        <section class="container">
+          <img id="bg" src="src/image/image.svg" alt="" />
+        </section>
+
+        <section class="container">
+          <div class="form">
+            <h3>Welcome back</h3>
+            <h2>Login in your account</h2>
+
+            <form action="">
+              <label for="email">Email</label><br />
+              <input type="email" name="email" id="email" autofocus /><br />
+              <label for="password">Password</label><br />
+              <input
+                type="password"
+                name="password"
+                id="password"
+                autocomplete=""
+              /><br />
+              <div class="recover">
+                <div class="remember">
+                  <input type="checkbox" name="" class="checkbox" id="check" />
+                  <label for="">Remember me</label><br />
+                </div>
+                <div><a href="#">Forgot your password?</a></div>
+              </div>
+            </form>
+
+            <div class="buttons">
+              <button id="green">Login</button>
+              <button id="google">
+                <img src="" alt="" />
+                Or Login with Google
+              </button>
+            </div>
+            <div class="register">
+              <p>Don't have a account? <a href="" id="link">Register</a></p>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <script src="https://unpkg.com/scrollreveal"></script>
+      <script>
+        const sr = ScrollReveal({
+          origin: "top",
+          distance: "50px",
+          duration: 2000,
+          reset: true,
+        });
+        ScrollReveal().reveal("#bg", { delay: 20 });
+      </script>
+    </main>
+  </body>
+</html>
